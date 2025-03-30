@@ -43,7 +43,11 @@ header {
     cursor: pointer;
 }
 
-
+button:hover {
+    background: #000;
+    color: #fff;
+    transition: all 0.3s linear;
+}
 
 .banner button {
     background: #006A50;
@@ -192,4 +196,23 @@ header {
     border: none;
     font-weight: 200;
 }
-.donate-part form input[type="submit"]{padding: 10px 20px;background: #015539;border: none;border-radius: 8px;color: #fff;margin-top: 20px;}
+
+.donate-part form input[type="submit"] {
+    padding: 10px 20px;
+    background: #015539;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.yuuns-part {
+    padding: 24px;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #928d8d2c;
+    background: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top 24px left 24px;
+}
+.yuuns-part h4{margin: 10px 0;}
